@@ -315,11 +315,11 @@ $('.div4').css("right", "37px");
 setTimeout(function () {
 $('.div3').css("right", "1px");
 setTimeout(function () {
-$('.div3').css("background-color", "rgba(255,0,0, .5)");
+$('.div3').css("background-color", "rgb(255, 168, 168)");
 setTimeout(function () {
-$('.div4').css("background-color", "rgba(255,0,0, .5)");
+$('.div4').css("background-color", "rgb(255, 168, 168)");
 setTimeout(function () {
-$('.div5').css("background-color", "rgba(255,0,0, .5)");
+$('.div5').css("background-color", "rgb(255, 168, 168)");
 }, 150);
 }, 150);
 }, 150);
