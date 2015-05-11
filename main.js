@@ -280,6 +280,15 @@ setTimeout(function () {
 $('.div5').css("right", "45px");
 setTimeout(function () {
 $('.div5').css("top", "50px");
+setTimeout(function () {
+$('.div5').css("border-radius", "0px");
+setTimeout(function () {
+$('.div5').css("right", "25px");
+setTimeout(function () {
+$('.div5').css("top", "25px");
+}, 250);
+}, 250);
+}, 250);
 }, 250);
 }, 250);
 }, 250);
