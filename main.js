@@ -304,6 +304,30 @@ setTimeout(function () {
 $('.div5').css("top", "25px");
 setTimeout(function () {
 $('.div5').css("right", "23px");
+setTimeout(function () {
+$('.div4').css("right", "40px");
+setTimeout(function () {
+$('.div5').css("right", "21px");
+setTimeout(function () {
+$('.div5').css("top", "22px");
+setTimeout(function () {
+$('.div4').css("right", "37px");
+setTimeout(function () {
+$('.div3').css("right", "1px");
+setTimeout(function () {
+$('.div3').css("background-color", "rgba(255,0,0, .5)");
+setTimeout(function () {
+$('.div4').css("background-color", "rgba(255,0,0, .5)");
+setTimeout(function () {
+$('.div5').css("background-color", "rgba(255,0,0, .5)");
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
