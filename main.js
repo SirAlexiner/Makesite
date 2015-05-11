@@ -364,6 +364,12 @@ setTimeout(function () {
 $('.div5').css("box-shadow", "5px 5px 5px #555");
 setTimeout(function () {
 $('.div3').css("right", "51.5px");
+setTimeout(function () {
+$('.div3').css("z-index", "1");
+setTimeout(function () {
+$('.div5').css("z-index", "2");
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
