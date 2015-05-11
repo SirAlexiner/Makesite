@@ -296,6 +296,12 @@ setTimeout(function () {
 $('.div5').css("right", "24px");
 setTimeout(function () {
 $('.div5').css("top", "24px");
+setTimeout(function () {
+$('.div5').css("height", "45px");
+setTimeout(function () {
+$('.div5').css("weight", "45px");
+}, 250);
+}, 250);
 }, 250);
 }, 250);
 }, 250);
