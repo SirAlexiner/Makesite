@@ -205,7 +205,10 @@ $('.p2').css("font-family", "ass");
 setTimeout(function () {
 $('.p2').css("font-size", "30px");
 setTimeout(function () {
-$('.header1').css("text-shadow", "5px 5px 5px #555");
+$('.p2').css("text-shadow", "5px 5px 5px #555");
+setTimeout(function () {
+$('.p2').css("text-shadow", "5px 5px 5px #333");
+}, 100);
 }, 100);
 }, 100);
 }, 100);
