@@ -389,11 +389,11 @@ $('.div4').css("right", "587px");
 setTimeout(function () {
 $('.div3').css("right", "551.5px");
 setTimeout(function () {
-$('.div5').css("top", "27px");
+$('.div5').css("top", "25px");
 setTimeout(function () {
-$('.div4').css("top", "5px");
+$('.div4').css("top", "3px");
 setTimeout(function () {
-$('.div3').css("top", "5px");
+$('.div3').css("top", "3px");
 }, 150);
 }, 150);
 }, 150);
