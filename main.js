@@ -326,6 +326,24 @@ setTimeout(function () {
 $('.div4').css("right", "57px");
 setTimeout(function () {
 $('.div3').css("right", "21px");
+setTimeout(function () {
+$('.div3').css("background-color", "black");
+setTimeout(function () {
+$('.div4').css("background-color", "black");
+setTimeout(function () {
+$('.div5').css("background-color", "black");
+setTimeout(function () {
+$('.div5').css("top", "42px");
+setTimeout(function () {
+$('.div4').css("top", "20px");
+setTimeout(function () {
+$('.div3').css("top", "20px");
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
