@@ -374,24 +374,6 @@ setTimeout(function () {
 $('.div6').append(div4);
 setTimeout(function () {
 $('.div6').append(div5);
-setTimeout(function () {
-$('.div5').css("top", "0px");
-setTimeout(function () {
-$('.div4').css("top", "0px");
-setTimeout(function () {
-$('.div3').css("top", "0px");
-setTimeout(function () {
-$('.div5').css("right", "0px");
-setTimeout(function () {
-$('.div4').css("right", "0px");
-setTimeout(function () {
-$('.div3').css("right", "0px");
-}, 150);
-}, 150);
-}, 150);
-}, 150);
-}, 150);
-}, 150);
 }, 150);
 }, 150);
 }, 150);
