@@ -14,6 +14,7 @@ var div1 = document.createElement("DIV"),
     p1 = document.createElement("P"),
     p2 = document.createElement("P"),
     div3 = document.createElement("DIV"),
+    div4 = document.createElement("DIV"),
     hr1 = document.createElement("HR"),
     hr2 = document.createElement("HR");
 setTimeout(function () {
@@ -230,6 +231,37 @@ setTimeout(function () {
 $('.div3').css("right", "0");
 setTimeout(function () {
 $('.div3').css("margin", "5px");
+setTimeout(function () {
+document.body.appendChild(div4);
+div4.className = "div4";
+setTimeout(function () {
+$('.div4').css("top", "0");
+setTimeout(function () {
+$('.div4').css("position", "relative");
+setTimeout(function () {
+$('.div4').css("position", "absolute");
+setTimeout(function () {
+$('.div4').css({"background-color": "red", "width": "50px"});
+setTimeout(function () {
+$('.div4').css("height", "50px");
+setTimeout(function () {
+$('.div4').css("border-radius", "500px");
+setTimeout(function () {
+$('.div4').css("float", "right");
+setTimeout(function () {
+$('.div4').css("right", "50px");
+setTimeout(function () {
+$('.div4').css("margin", "5px");
+}, 500);
+}, 500);
+}, 500);
+}, 500);
+}, 500);
+}, 500);
+}, 500);
+}, 500);
+}, 500);
+}, 500);
 }, 500);
 }, 500);
 }, 500);
