@@ -213,11 +213,11 @@ setTimeout(function () {
 document.body.appendChild(div3);
 div3.className = "div3";
 setTimeout(function () {
-$('.div3').css({"background-color": "red", "width": "50px;"});
+$('.div3').css({"background-color": "red", "width": "50px"});
 setTimeout(function () {
-$('.div3').css("height", "50px;");
+$('.div3').css("height", "50px");
 setTimeout(function () {
-$('.div3').css("border-radius", "500px;");
+$('.div3').css("border-radius", "500px");
 }, 100);
 }, 100);
 }, 100);
