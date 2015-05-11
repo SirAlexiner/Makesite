@@ -383,11 +383,20 @@ $('.div4').css("right", "187px");
 setTimeout(function () {
 $('.div3').css("right", "151px");
 setTimeout(function () {
+$('.div5').css("right", "571px");
+setTimeout(function () {
+$('.div4').css("right", "587px");
+setTimeout(function () {
+$('.div3').css("right", "551.5px");
+setTimeout(function () {
 $('.div5').css("top", "27px");
 setTimeout(function () {
 $('.div4').css("top", "5px");
 setTimeout(function () {
 $('.div3').css("top", "5px");
+}, 150);
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
