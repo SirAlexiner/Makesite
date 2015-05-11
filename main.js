@@ -13,12 +13,13 @@ var div1 = document.createElement("DIV"),
     div2 = document.createElement("DIV"),
     p1 = document.createElement("P"),
     p2 = document.createElement("P"),
+    div3 = document.createElement("DIV"),
     hr1 = document.createElement("HR"),
     hr2 = document.createElement("HR");
 setTimeout(function () {
 $('body').css({"background-color": "#333", "margin": "0px", "padding": "0px", "color": "white"});
 setTimeout(function () {
-	div1.className = "div1";
+div1.className = "div1";
 document.body.appendChild(div1);
 setTimeout(function () {
 $('.div1').css("background-color", "#aaa");
@@ -208,6 +209,19 @@ setTimeout(function () {
 $('.p2').css("text-shadow", "5px 5px 5px #555");
 setTimeout(function () {
 $('.p2').css("text-shadow", "5px 5px 5px #333");
+setTimeout(function () {
+document.body.appendChild(div3);
+div3.className = "div3";
+setTimeout(function () {
+$('.div3').css({"background-color": "red", "width": "50px;"});
+setTimeout(function () {
+$('.div3').css("height", "50px;");
+setTimeout(function () {
+$('.div3').css("border-radius", "500px;");
+}, 100);
+}, 100);
+}, 100);
+}, 100);
 }, 100);
 }, 100);
 }, 100);
