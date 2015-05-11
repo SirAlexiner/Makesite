@@ -218,6 +218,12 @@ setTimeout(function () {
 $('.div3').css("height", "50px");
 setTimeout(function () {
 $('.div3').css("border-radius", "500px");
+setTimeout(function () {
+$('.div3').css("top", "0");
+setTimeout(function () {
+$('.div3').css("position", "relative");
+}, 100);
+}, 100);
 }, 100);
 }, 100);
 }, 100);
