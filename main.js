@@ -300,6 +300,12 @@ setTimeout(function () {
 $('.div5').css("height", "45px");
 setTimeout(function () {
 $('.div5').css("weight", "45px");
+setTimeout(function () {
+$('.div5').css("top", "25px");
+setTimeout(function () {
+$('.div5').css("right", "23px");
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
