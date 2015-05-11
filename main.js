@@ -222,6 +222,12 @@ setTimeout(function () {
 $('.div3').css("top", "0");
 setTimeout(function () {
 $('.div3').css("position", "relative");
+setTimeout(function () {
+$('.div3').css("position", "absolute");
+setTimeout(function () {
+$('.div3').css("float", "right");
+}, 100);
+}, 100);
 }, 100);
 }, 100);
 }, 100);
