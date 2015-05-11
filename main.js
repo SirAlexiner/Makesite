@@ -368,6 +368,9 @@ setTimeout(function () {
 $('.div3').css("z-index", "1");
 setTimeout(function () {
 $('.div5').css("z-index", "2");
+setTimeout(function () {
+$('.hr1').css("z-index", "3");
+}, 150);
 }, 150);
 }, 150);
 }, 150);
