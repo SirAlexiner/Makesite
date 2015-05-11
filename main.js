@@ -221,11 +221,17 @@ $('.div3').css("position", "absolute");
 setTimeout(function () {
 $('.div3').css({"background-color": "red", "width": "50px"});
 setTimeout(function () {
-$('.div3').css("border-radius", "500px");
-setTimeout(function () {
 $('.div3').css("height", "50px");
 setTimeout(function () {
+$('.div3').css("border-radius", "500px");
+setTimeout(function () {
 $('.div3').css("float", "right");
+setTimeout(function () {
+$('.div3').css("right", "0");
+setTimeout(function () {
+$('.div3').css("margin", "5px");
+}, 100);
+}, 100);
 }, 100);
 }, 100);
 }, 100);
