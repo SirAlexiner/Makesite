@@ -320,6 +320,15 @@ setTimeout(function () {
 $('.div4').css("background-color", "rgb(255, 168, 168)");
 setTimeout(function () {
 $('.div5').css("background-color", "rgb(255, 168, 168)");
+setTimeout(function () {
+$('.div5').css("right", "41px");
+setTimeout(function () {
+$('.div4').css("right", "57px");
+setTimeout(function () {
+$('.div3').css("right", "21px");
+}, 150);
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
