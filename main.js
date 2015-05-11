@@ -370,6 +370,20 @@ setTimeout(function () {
 $('.div5').css("z-index", "2");
 setTimeout(function () {
 $('.hr1').css("z-index", "3");
+setTimeout(function () {
+$('.div5').css("top", "42px");
+setTimeout(function () {
+$('.div4').css("top", "20px");
+setTimeout(function () {
+$('.div3').css("top", "20px");
+setTimeout(function () {
+$('.div5').css("right", "171px");
+setTimeout(function () {
+$('.div4').css("right", "187px");
+setTimeout(function () {
+$('.div3').css("right", "151px");
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
@@ -539,6 +553,10 @@ $('.hr1').css("z-index", "3");
 }, 150);
 }, 150);
 }, 150);
+}, 150);    
+}, 150);    
+}, 150);    
+}, 150);    
 }, 150);    
 });
 
