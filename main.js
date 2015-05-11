@@ -338,6 +338,42 @@ setTimeout(function () {
 $('.div4').css("top", "20px");
 setTimeout(function () {
 $('.div3').css("top", "20px");
+setTimeout(function () {
+$('.div5').css("right", "71px");
+setTimeout(function () {
+$('.div4').css("right", "87px");
+setTimeout(function () {
+$('.div3').css("right", "51px");
+setTimeout(function () {
+$('.div3').css("background-color", "white");
+setTimeout(function () {
+$('.div4').css("background-color", "white");
+setTimeout(function () {
+$('.div5').css("background-color", "white");
+setTimeout(function () {
+$('.div5').css("top", "32px");
+setTimeout(function () {
+$('.div4').css("top", "10px");
+setTimeout(function () {
+$('.div3').css("top", "10px");
+setTimeout(function () {
+$('.div3').css("text-shadow", "5px 5px 5px #555");
+setTimeout(function () {
+$('.div4').css("text-shadow", "5px 5px 5px #555");
+setTimeout(function () {
+$('.div5').css("text-shadow", "5px 5px 5px #555");
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
