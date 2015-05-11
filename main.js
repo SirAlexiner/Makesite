@@ -16,6 +16,7 @@ var div1 = document.createElement("DIV"),
     div3 = document.createElement("DIV"),
     div4 = document.createElement("DIV"),
     div5 = document.createElement("DIV"),
+    div6 = document.createElement("DIV"),
     hr1 = document.createElement("HR"),
     hr2 = document.createElement("HR");
 setTimeout(function () {
@@ -362,6 +363,40 @@ setTimeout(function () {
 $('.div4').css("text-shadow", "5px 5px 5px #555");
 setTimeout(function () {
 $('.div5').css("text-shadow", "5px 5px 5px #555");
+setTimeout(function () {
+$('.div3').css("right", "51.5px");
+setTimeout(function () {
+document.body.appendChild(div6);
+div6.className = "div6";
+setTimeout(function () {
+$('.div6').append(div3);
+setTimeout(function () {
+$('.div6').append(div4);
+setTimeout(function () {
+$('.div6').append(div5);
+setTimeout(function () {
+$('.div5').css("top", "0px");
+setTimeout(function () {
+$('.div4').css("top", "0px");
+setTimeout(function () {
+$('.div3').css("top", "0px");
+setTimeout(function () {
+$('.div5').css("right", "0px");
+setTimeout(function () {
+$('.div4').css("right", "0px");
+setTimeout(function () {
+$('.div3').css("right", "0px");
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
+}, 150);
 }, 150);
 }, 150);
 }, 150);
