@@ -292,6 +292,12 @@ setTimeout(function () {
 $('.div5').css("-ms-transform", "rotate(45deg)");
 setTimeout(function () {
 $('.div5').css("-webkit-transform", "rotate(45deg)");
+setTimeout(function () {
+$('.div5').css("right", "24px");
+setTimeout(function () {
+$('.div5').css("top", "24px");
+}, 250);
+}, 250);
 }, 250);
 }, 250);
 }, 250);
